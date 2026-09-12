@@ -10,8 +10,8 @@ const asyncHandler = (requestHandler) => {
 export default asyncHandler
 
 //try catch  method
-// const asyncHandler = (fn) => { () => () }
-// const asyncHandler = (fn) => async (req , res , next) => {
+// const asyncHandler = (fn) => { () => {} }
+// const asyncHandler = (fn) => async c(req , res , next) => {
 //     try {
 //        await fn(req , res , next)
 //     }
